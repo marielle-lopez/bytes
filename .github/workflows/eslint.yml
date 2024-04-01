@@ -1,5 +1,7 @@
 name: eslint
-on: [push]
+on:
+  pull_request:
+    branches: ['development']
 jobs:
   eslint:
     name: eslint
